@@ -49,7 +49,7 @@ function search(query){
 	break;
 
         default:
-            window.location="https://www.google.fr/search?q=" +
+            window.location="https://www.duckduckgo.com/" +
                 query.replaceChars("", "+");
     }
 }
